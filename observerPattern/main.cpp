@@ -8,6 +8,7 @@
 
 int main() {
 	// 首先先创建的最基本的主题：使用默认的增加、删除、通知观察者的行为方式
+	// 可以继承AbstractSubject对以上的行为方式进行多态实现
 	AbstractSubject* abstractSubject = new AbstractSubject();
 
 	// 创建观察者对象1,将其加到abstractSubject下
