@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "observerPattern", "observer
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adapterPattern", "adapterPattern\adapterPattern.vcxproj", "{1B2280DC-FCA3-4E6C-9D5E-868B26A1B91E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "proxyPattern", "proxyPattern\proxyPattern.vcxproj", "{89BEBD32-14A9-4E02-8694-B93811CC5D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{1B2280DC-FCA3-4E6C-9D5E-868B26A1B91E}.Release|x64.Build.0 = Release|x64
 		{1B2280DC-FCA3-4E6C-9D5E-868B26A1B91E}.Release|x86.ActiveCfg = Release|Win32
 		{1B2280DC-FCA3-4E6C-9D5E-868B26A1B91E}.Release|x86.Build.0 = Release|Win32
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Debug|x64.ActiveCfg = Debug|x64
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Debug|x64.Build.0 = Debug|x64
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Debug|x86.ActiveCfg = Debug|Win32
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Debug|x86.Build.0 = Debug|Win32
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Release|x64.ActiveCfg = Release|x64
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Release|x64.Build.0 = Release|x64
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Release|x86.ActiveCfg = Release|Win32
+		{89BEBD32-14A9-4E02-8694-B93811CC5D6B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
