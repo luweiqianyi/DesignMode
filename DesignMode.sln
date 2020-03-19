@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bridgePattern", "bridgePatt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "facadePattern", "facadePattern\facadePattern.vcxproj", "{E1C7573C-DF5B-4022-9697-732BAFF01258}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flyweightPattern", "flyweightPattern\flyweightPattern.vcxproj", "{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{E1C7573C-DF5B-4022-9697-732BAFF01258}.Release|x64.Build.0 = Release|x64
 		{E1C7573C-DF5B-4022-9697-732BAFF01258}.Release|x86.ActiveCfg = Release|Win32
 		{E1C7573C-DF5B-4022-9697-732BAFF01258}.Release|x86.Build.0 = Release|Win32
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Debug|x64.ActiveCfg = Debug|x64
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Debug|x64.Build.0 = Debug|x64
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Debug|x86.Build.0 = Debug|Win32
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Release|x64.ActiveCfg = Release|x64
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Release|x64.Build.0 = Release|x64
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Release|x86.ActiveCfg = Release|Win32
+		{D7223BBB-37C7-469D-AA4D-AFF0DC14BFF2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
