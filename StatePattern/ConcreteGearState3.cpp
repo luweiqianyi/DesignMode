@@ -26,7 +26,7 @@ void ConcreteGearState3::gearDown()
 	GearState* origin = m_bike->setState(new ConcreteGearState1(m_bike));
 	m_bike->getState();
 	//m_bike->getState()->printCurrentState();
-	delete origin; 
+	delete origin; // 不释放会造成堆内存泄漏 这个origin指的可能就是自己
 }
 
 void ConcreteGearState3::printCurrentState()

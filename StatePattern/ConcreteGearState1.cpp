@@ -18,7 +18,7 @@ void ConcreteGearState1::gearUp()
 	// setState内部会将原内存释放掉 避免内存泄漏
 	GearState* origin=m_bike->setState(new ConcreteGearState2(m_bike));
 	m_bike->getState();
-	delete origin; // 不释放会造成堆内存泄漏
+	delete origin; // 不释放会造成堆内存泄漏 这个origin指的可能就是自己
 }
 
 void ConcreteGearState1::gearDown()
